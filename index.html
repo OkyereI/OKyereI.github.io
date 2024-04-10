@@ -1,239 +1,219 @@
 
-
-
-<!doctype html>
-<html>
-  <title>job application website </title>
-  <header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-          <meta name="google-site-verification" content="Co5ss0eMqJIVZAtVV6WCvsO6s9PBwJC0I5ZafJvM1Xo" />
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link href="url_for('static', filename='style.css')" rel="stylesheet">
-                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-           <link rel="stylesheet" type="" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link href="style.css" rel="stylesheet">
-     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-    />
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-     <style>
-      
-
-
-
-    
-
-
-    </style>
-  </header>
-    <body>
-      
-      <div class="container">
-        <div class='row' id='le'>
-          <ul >
-      <li><a class="fa fa-home" aria-hidden="true" href="home.html">Home</a></li>
-
-      <li><a href="#contact"class="fa fa-envelope" aria-hidden="true">Contact</a></li>
-      <li><a href="#about">About</a></li>
-
-      <li><a href="#register"><i class="fa fa-person">register</i></a></li>
-      <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>call us</a>
-      </ul>  
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" rel="stylesheet">
+<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<!-- Font Awesome -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+/>
+<!-- Google Fonts Roboto -->
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+/>
+<!-- MDB -->
+<link rel="stylesheet" href="css/mdb.min.css" />
+    <title>blog</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        th{
+            color: blue;
+            font-size: large;
+            background-color:blanchedalmond;
+        }
+        tr:nth-child(odd){
+            background-color: cyan;
+        }
+        .tn{
+            background-image: url("/static/space.jpg");
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div><svg width="80" height="41" viewBox="0 0 80 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M79.2936 27.4887L71.4226 19.8465L79.2976 12.1535L79.9961 11.4712L79.2976 10.7889L74.025 5.63815L73.3265 4.95581L72.628 5.63815L64.7529 13.3311L56.9297 5.63815L56.2313 4.95581L55.5288 5.63815L50.2561 10.7889L49.5616 11.4712L50.2561 12.1535L58.0833 19.8465L50.2561 27.4926L49.5576 28.1749L50.2561 28.8573L55.5288 34.008L56.2273 34.6903L56.9258 34.008L64.7529 26.3619L72.632 34.008L73.3304 34.6903L74.025 34.008L79.2976 28.8573L80.0001 28.171L79.2936 27.4887Z" fill="#0E1718"/>
+                <path d="M36.1062 4.28127V40.354H46.0177V0L36.1062 4.28127Z" fill="#0E1718"/>
+                <path d="M20.6892 26.0834C20.6053 27.5987 19.9188 29.0223 18.776 30.051C17.6332 31.0797 16.1242 31.6324 14.5702 31.5914C13.0163 31.5504 11.5401 30.919 10.4558 29.8315C9.37158 28.744 8.76488 27.2864 8.76488 25.7688C8.76488 24.2513 9.37158 22.7936 10.4558 21.7061C11.5401 20.6187 13.0163 19.9872 14.5702 19.9462C16.1242 19.9052 17.6332 20.4579 18.776 21.4867C19.9188 22.5154 20.6053 23.9389 20.6892 25.4543V26.0834ZM20.6892 11.3274V12.5816C18.4442 11.6173 15.9883 11.2148 13.5437 11.4105C11.0992 11.6062 8.74326 12.394 6.68915 13.7025C4.63505 15.011 2.94764 16.7989 1.77966 18.9044C0.611674 21.01 0 23.3666 0 25.7611C0 28.1555 0.611674 30.5121 1.77966 32.6177C2.94764 34.7232 4.63505 36.5111 6.68915 37.8196C8.74326 39.1281 11.0992 39.9159 13.5437 40.1116C15.9883 40.3073 18.4442 39.9048 20.6892 38.9405V40.3539H30.4425V11.339L20.6892 11.3274Z" fill="#0E1718"/>
+                </svg>
+            <a href="https://www.alxafrica.com/admissions/">foundational project</a>
+            </div>
+                
         </div>
-        <div class='center'><img src="static/logo.png" class="rounded mx-auto d-block" alt="..." style='width:20%'></div>
-  <hr>
-       <div class='col '>
+        <div><h1 class="text-center mt-5" style="color: blue;">THE  MAZE PROJECT BLOG</h1>
+        <p>The SDL Maze  project is a foundational project for the end of the trimister. The SDL game app is a  C/C++ source Library tool for this project. This project is a portfolio project which is solely design by Isaac Okyere. What really inspired me to consider the maze project is the new developments in game development and techniques associated with launching a c/c++ source game programs. </p>
+        </div>
+        <div class="second-container class='row  w3-content w3-section" style="width: 100% ; height: 30em;">
+        <img src="static/Skeleton.gif" alt="" style="width: 100%; height: 40%;">
+        </div> 
 
-        <h1 class='text-center'style='margin-top:20px;margin-left:20px; font-family:Epilogue; color:#000065 ';font-size='30px'>WEB  DEVELOPMENT CENTER </h1>
-                    
-            <h5 class='text-center'style='margin-top:40px;margin-left:10px; font-family:Epilogue; color:#000065 '>A web design company serving your purpose</h5>
-       </div>
-       
-        
-        <div class="second-container class='row  w3-content w3-section">
-                </div>
-   
-        <br>
         <hr>
-
-        <div style='width:100%; margin-top:20px'>
-
-      <h1 class='text-center mt-50 py-5' style='margin-top:50px; color:blue'>What we can offer you</h1>
-       <div class='row'>
-        <div>
-            <h3>Database Management</h3>
-            <p>location:Ghana</p>
-        </div>
-        
-        
-         <div class='col sm-5 mb-20' style='margin-top:-20px; margin-bottom:20px; margin-top:-50px'>
-            <a href="mailto:isaacookyere4@gmail.com?subject=Application%20for%20{{company['project']}}&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20Resume%20link%3A%20%3Cresume%20link%3E%0D%0A%0D%0AMy%20LinkedIn%20link%3A%20%3Clinkedin%20in%3E%0D%0A%0D%0A" class='btn btn-primary ' type="text" style='margin-left:80%; width:60px '>apply<a> 
-
-        </div>
-        <hr>
-
-       
-         </div>
-
-
-
-
-
-        </div>
-        <div>
-     <div class='row'>
-        <div>
-            <h3>Web Development</h3>
-            <p>location:Ghana</p>
-        </div>
-        
-        
-         <div class='col sm-5 mb-20' style='margin-top:-20px; margin-bottom:20px; margin-top:-50px'>
-            <a href="mailto:isaacookyere4@gmail.com?subject=Application%20for%20{{company['project']}}&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20Resume%20link%3A%20%3Cresume%20link%3E%0D%0A%0D%0AMy%20LinkedIn%20link%3A%20%3Clinkedin%20in%3E%0D%0A%0D%0A" class='btn btn-primary ' type="text" style='margin-left:80%; width:60px '>apply<a> 
-
-        </div>
-        <hr>
-
-       
-         </div>
+      <div class="row">
+            <div>
+        <video width="100%" height="240" controls autoplay>
+            <source src="static/moves.webm" type="video/mp4">
+            
          
-             
+          </video> 
       </div>
-      <div class='row'>
-        <div>
-            <h3>School and Company <br> Management System</h3>
-            <p>location:Ghana</p>
-        </div>
-        
-        
-         <div class='col sm-5 mb-20' style='margin-top:-20px; margin-bottom:20px; margin-top:-50px'>
-            <a href="mailto:isaacookyere4@gmail.com?subject=Application%20for%20{{company['project']}}&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20Resume%20link%3A%20%3Cresume%20link%3E%0D%0A%0D%0AMy%20LinkedIn%20link%3A%20%3Clinkedin%20in%3E%0D%0A%0D%0A" class='btn btn-primary ' type="text" style='margin-left:80%; width:60px '>apply<a> 
+     
+     <a  class="btn btn-primary" href="https://github.com/OkyereI/The-maize-project.git">Download the Game</a>
+     <h6 style="margin-top: 3em;" class="text-center "><p>The Game Control keys are listed below</p></h6>
+      <table>
+        <tr>
+        <th>keys</th>
+        <th>functions</th>
+        </tr>
+        <tr>
+            <td>Left arrow key</td>
+            <td>Use to turn left</td>
+        </tr>
+        <tr>
+            <td>Right arrow key</td>
+            <td>Use to turn right</td>
+        </tr>
+        <tr>
+            <td>Up arrow key</td>
+            <td>Use move up</td>
+        </tr>
+        <tr>
+            <td>Down arrow key</td>
+            <td>Use move down</td>
+        </tr>
+        <tr>
+            <td>Shift  key</td>
+            <td>Hold to move twice as fast</td>
+        </tr>
+        <tr>
+            <td>t key</td>
+            <td> Toggle between textured and untextured rendering</td>
+        </tr>
+        <tr>
+            <td>m key</td>
+            <td> Toggle the full screen map on/off</td>
+        </tr>
+        <tr>
+            <td>f key</td>
+            <td>Toggle the barrel distortion correction on/off</td>
+        </tr>
+        <tr>
+            <td>[ key</td>
+            <td>  Decrease the distance to the viewplace (increase FOV)  
+            </td>
+            
+        </tr>
+        <tr>
+            <td>] key</td>
+            <td>
+                Increase the distance to the viewplace (decrease FOV)  
 
+            </td>
+        </tr>
+        <tr>
+            <td>Esc key</td>
+            <td>
+                    Quit or Exit the game
+            </td>
+        </tr>
+      </table>
+    </div>
+    <div class="tn">
+    </div>
+    <footer class=" " style='height:20px; margin-top:4em; '>
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
         </div>
-        <hr>
-
-       
-         </div>
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="static/sit (1).jpg" class="img-fluid rounded-start" alt="...">
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 mb-4" style="background-color: rgba(0, 0, 0, 0.05); margin-top:120px">
+          © 2024 Copyright alx-project
+          <a class="text-body" href=""></a>
+        </div>
+        <!-- Copyright -->
+      
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">About us</h5>
-                  <p class="card-text"> web development center is ready to solve and manage your website. </p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
+
+            </footer>              </body>
               </div>
-            </div>
-          </div>
-          
-          <div class="card text-bg-dark">
-            <img src="static/sit (2).jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Tech solution center</h5>
-              <p class="card-text">We create and host websites for business and create networkwork for our customers. Our services are available and timely</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-         
-        <div style='margin-top:330px'> 
-               
-
-<footer class=" " style='height:20px; margin-top:40%; '>
-  <!-- Grid container -->
-  <div class="container pt-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <!-- Github -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3 mb-4" style="background-color: rgba(0, 0, 0, 0.05); margin-top:120px">
-    © 2024 Copyright_project
-    <a class="text-body" href="">bestzion3.net</a>
-  </div>
-  <!-- Copyright -->
-
-        </div>
-        
-        </div>
-       </div>
-       
-          
-    </body>
+</body>
 </html>
